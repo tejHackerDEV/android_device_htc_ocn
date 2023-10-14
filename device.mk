@@ -203,6 +203,9 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     memtrack.msm8998 \
     libdisplayconfig \
+    libdisplayconfig.vendor \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
     libqdMetaData.system \
