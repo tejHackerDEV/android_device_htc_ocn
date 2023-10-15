@@ -6,6 +6,11 @@
   {
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-18.1"
   }
 ]
 
