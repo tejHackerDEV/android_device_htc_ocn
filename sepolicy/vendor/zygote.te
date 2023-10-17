@@ -1,2 +1,4 @@
 allow zygote vendor_file:dir { open } ;
 allow zygote vendor_file:dir { read } ;
+
+get_prop(zygote, exported_camera_prop);

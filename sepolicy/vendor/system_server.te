@@ -39,6 +39,9 @@ allow system_server block_device:blk_file { ioctl } ;
 
 allow system_server init:binder { call } ;
 
+# For Exported Camera
+get_prop(system_server, exported_camera_prop);
+
 # For Userspace Reboot 
 get_prop(system_server, userspace_reboot_config_prop);
 get_prop(system_server, userspace_reboot_exported_prop);
