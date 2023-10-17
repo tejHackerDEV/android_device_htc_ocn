@@ -38,3 +38,7 @@ allow system_server block_device:blk_file { write } ;
 allow system_server block_device:blk_file { ioctl } ;
 
 allow system_server init:binder { call } ;
+
+# For Userspace Reboot 
+get_prop(system_server, userspace_reboot_config_prop);
+get_prop(system_server, userspace_reboot_exported_prop);
