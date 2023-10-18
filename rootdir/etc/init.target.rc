@@ -91,7 +91,6 @@ on post-fs-data
     mkdir /data/misc/mcRegistry/TbStorage 0700 system system
     symlink /persist/tee/00000000.authtokcont.backup /data/misc/mcRegistry/00000000.authtokcont.backup
     export MC_AUTH_TOKEN_PATH /data/misc/mcRegistry
-    mkdir /data/misc/qvr 0770 system system
 
 on boot
    start vendor.rmt_storage
