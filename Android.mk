@@ -31,6 +31,8 @@ ifeq ($(TARGET_DEVICE),ocn)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
+$(shell mkdir -p $(TARGET_OUT_VENDOR)/firmware)
+
 include $(CLEAR_VARS)
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
@@ -54,7 +56,6 @@ $(RFS_MSM_ADSP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /mnt/vendor/persist/hlos_rfs/shared $@/hlos
 	$(hide) ln -sf /firmware $@/readonly/firmware
 	$(hide) ln -sf /vendor/firmware $@/readonly/vendor/firmware
-	$(hide) ln -sf /dev/block/bootdevice/by-name/msadp $(TARGET_OUT_VENDOR)/firmware/msadp
 
 RFS_MSM_CDSP_SYMLINKS := $(TARGET_OUT_VENDOR)/rfs/msm/cdsp/
 $(RFS_MSM_CDSP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
