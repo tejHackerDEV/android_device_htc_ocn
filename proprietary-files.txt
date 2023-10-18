@@ -61,6 +61,7 @@ vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libmdsprpc.so
 vendor/lib/libqtigef.so
+vendor/lib/libqti-perfd-client.so
 vendor/lib/libsdsprpc.so
 lib/libqct_resampler.so
 vendor/lib/soundfx/libasphere.so
@@ -79,6 +80,7 @@ vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libqtigef.so
+vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libshoebox.so
