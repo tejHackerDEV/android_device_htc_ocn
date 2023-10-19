@@ -15,3 +15,6 @@ persist.vendor.timeadjust           u:object_r:vendor_timekeep_prop:s0
 persist.sys.thermal.                   u:object_r:thermal_engine_prop:s0
 sys.thermal.                           u:object_r:thermal_engine_prop:s0
 vendor.sys.thermal.                    u:object_r:thermal_engine_prop:s0
+
+# Wlan
+persist.vendor.wigig.npt.enable         u:object_r:vendor_default_prop:s0
