@@ -8,3 +8,5 @@ hal_client_domain(hal_audio_default, hal_power)
 
 allow hal_audio_default sysfs:dir { open } ;
 allow hal_audio_default sysfs:dir { read } ;
+
+allow hal_audio_default default_android_vndservice:service_manager { find };
