@@ -205,9 +205,15 @@ vendor/lib/libmm-qcamera.so
 vendor/lib/libmorpho_video_refiner.so
 vendor/lib/libqomx_core.so
 vendor/lib/libhtc_facebeauty.so
+vendor/lib/libllvd_smore
+vendor/lib/libmmcamera_ubifocus_lib
+vendor/lib/liboptizoom
+vendor/lib/libseemore
+vendor/lib/libtrueportrait
 lib/libhtcsecure.so
 lib64/libhtcsecure.so
 vendor/lib64/libawb_calibration.so
+vendor/lib64/libtrueportrait
 vendor/lib/libcppf.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
