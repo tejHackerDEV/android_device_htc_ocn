@@ -34,7 +34,7 @@ PRODUCT_MODEL := HTC U11
 PRODUCT_MANUFACTURER := HTC
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=ocnuhl_00710 \
-        PRIVATE_BUILD_DESC="ocnuhl_00710-user 8.0.0 OPR6.170623.013/1002308.9 release-keys"
+        PRODUCT_NAME=ocndugl_00400 \
+        PRIVATE_BUILD_DESC="3.35.400.1 10.0_g CL1089900 release-keys"
 
-BUILD_FINGERPRINT := htc/ocnuhl_00710/htc_ocnuhl:8.0.0/OPR6.170623.013/1002308.9:user/release-keys
+BUILD_FINGERPRINT := htc/ocndugl_00400/htc_ocndugl:9/PQ2A.190205.003/1089900.1:user/release-keys
