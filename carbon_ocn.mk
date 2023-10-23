@@ -17,6 +17,10 @@
 # Release name
 PRODUCT_RELEASE_NAME := ocn
 
+# Android R: Disable logic for new vendor_boot
+# Our devices do not support it
+PRODUCT_BUILD_VENDOR_BOOT_IMAGE := false
+
 # Inherit device configuration
 $(call inherit-product, device/htc/ocn/full_ocn.mk)
 
